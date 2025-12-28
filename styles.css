@@ -8,6 +8,8 @@
     --glass-panel: rgba(10, 20, 30, 0.75);
     --font-display: 'Orbitron', sans-serif;
     --font-tech: 'Rajdhani', sans-serif;
+    --neon-green: #00ff66;
+    --neon-pink: #96005a;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -241,6 +243,7 @@ td {
 .status-wait { color: var(--neon-orange); }
 .status-delay { color: yellow; animation: blinker 1s infinite; }
 .status-stop { color: var(--neon-red); font-weight: bold; }
+.status-check { color: var(--neon-pink); font-weight: bold; }
 
 /* Hologram Scanline Animation */
 .hologram-overlay::after {
